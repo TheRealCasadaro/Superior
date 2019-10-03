@@ -37,7 +37,7 @@ h2{
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    background-color: black;
+    /* background-color: black; */
     align-items: center;
     justify-content: center;
 }
@@ -87,3 +87,6 @@ nav ul li {
 
 }
 
+.social-icon-image-size{
+    font-size: 5px;
+}
