@@ -38,8 +38,12 @@ h2{
     width: 100vw;
     height: 100vh;
     /* background-color: black; */
+    background-image: url("/img/backgroundImage/iana-venge-alice-is-back-white-rabbit.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     align-items: center;
     justify-content: center;
+    background-position-x: center;
 }
 
 header{
