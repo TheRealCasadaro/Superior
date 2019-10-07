@@ -13,11 +13,16 @@ h2{
     margin: auto;
     flex-direction: column;
     margin-bottom: 25px;
-    background-color: red;
+    /* background-color: red; */
     height: 37px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#logo-container img{
+    width: 64px;
+    height: 64px;
 }
 
 .logo-text{
@@ -69,6 +74,11 @@ header{
     color: white;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 nav{
     padding-left: 40px;
     font-family: 'Courier New', Courier, monospace;
@@ -76,6 +86,10 @@ nav{
 
 nav ul li {
     list-style-type: none;
+}
+
+#main-nav ul li a:hover {
+    background-color: red;
 }
 
 #main-nav{
@@ -93,6 +107,10 @@ nav ul li {
 #social-media-nav ul{
     display: flex;
     justify-content: space-around;
+}
+
+.social-icon-image-size:hover{
+    background-color: white;
 }
 
 .social-icon-image-size{
