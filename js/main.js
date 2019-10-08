@@ -1,7 +1,7 @@
 const clockDateDisplay = document.getElementById("clock-date") 
 const clockTimeDisplay = document.getElementById("clock-time") 
 
-currentDateTime = new Date()
+const currentDateTime = new Date()
 
 currentTime = currentDateTime.getTime();
 
