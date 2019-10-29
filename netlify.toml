@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/deal"
+  to = "https://www.humblebundle.com/books/linux-bsd-bookshelf-2019-books?partner=code365startuplab"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
