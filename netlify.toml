@@ -1,6 +1,9 @@
 [[redirects]]
-  from = "/deal"
-  to = "https://www.humblebundle.com/books/linux-bsd-bookshelf-2019-books?partner=code365startuplab"
+  # from = "/deal"
+  # to = "https://www.humblebundle.com/books/linux-bsd-bookshelf-2019-books?partner=code365startuplab"
+  from = "/NicheSitePlan"
+  to = "https://www.notion.so/The-SAM-SAM-Niche-Site-Plan-f7989b3799b9456e876a7fa05d55495f"
+
   status = 200
   force = true
   headers = {X-From = "Netlify"}
