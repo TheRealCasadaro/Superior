@@ -120,6 +120,11 @@ nav ul li {
     height: 22px;
 }
 
+.draft{
+    font-weight: bold;
+    ;
+}
+
 #clock {
     font-size: 1.5rem;
 }
