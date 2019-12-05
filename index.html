@@ -9,34 +9,27 @@
     <meta name="description" content="Learn to build websites and applications using html css and javascript">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Superior</title>
-    <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Be+Vietnam:800i|Gudea&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
 </head>
 
 <body>
 
     <!-- //ANCHOR MAIN PAGE CONTAINER -->
     <div class="container-fluid">
-        <!-- //ANCHOR MAIN CONTENT CONTAINER -->
-        <div class="container row mx-auto">
+        <div class="container row mx-auto px-0;">
             <!-- //ANCHOR PAGE HEADER => SHOULD CONTAIN ALL THE INFORMATION RELEVENT TO THIS DOCUMENT -->
-            <header class="container  sticky-top  bg-light mb-4">
-                <!-- //ANCHOR 🧭NAVIGATION PAGE/MAIN  AND LOGO AREA -->
+            <!-- //ANCHOR 🧭NAVIGATION PAGE/MAIN  AND LOGO AREA -->
+            <section id="main-navigation" class="container sticky-top bg-light mb-5 px-0">
                 <nav>
                     <ul class="nav">
                         <li>
-                            <!-- //ANCHOR PAGE LOGO -->
-                            <div id="logo-container">
-                                <img src="/img/logo/Artboard 1 copy 6-80.jpg"
-                                    alt="The Real Casadaro Logo - image of white bunny facing to the left, on a red background, surounded by a white border"
-                                    class="img-thumbnail" style="height: 42px;">
-                                <!-- <h1 class="logo-text" style="margin-bottom:0px; font-size: 1rem;">TheRealCasadaro</h1> -->
-                            </div>
+                            <img src="/img/logo/Artboard 1 copy 6-80.jpg"
+                                alt="The Real Casadaro Logo - image of white bunny facing to the left, on a red background, surounded by a white border"
+                                class="img-thumbnail" style="height: 42px;">
                         </li>
-
-                        <!-- //ANCHOR NAVIGATION LINKS -->
                         <li class="nav-item">
                             <a class="nav-link" href="https://writecodedrinkcoffee.com/store/">
                                 shop
@@ -59,235 +52,191 @@
                         </li>
                     </ul>
                 </nav>
-
-                <!-- //FIXME CLOCK -->
-                <div id="clock-container">
-                    <!-- <h2 id="clock" class="link-text">
+            </section>
+            <!-- //FIXME CLOCK -->
+            <div id="clock-container">
+                <!-- <h2 id="clock" class="link-text">
                                     <span id="clock-date"></span>
                                     <span id="clock-time"></span>
                                     PNW
                                 </h2> -->
-                </div>
-
-                <!-- //ANCHOR WHO WE ARE AND WHAT WE DO -->
-            </header>
-
-            <!-- //ANCHOR 💯SUPPORT/SIDEBAR -->
+            </div>
             <div class="row">
-
-
-                <div class="col-sm-2" id="supporter-sidebar">
-                    <div class="position-fixed text-uppercase text-center ">
+                <!-- //ANCHOR 💯SUPPORT/SIDEBAR -->
+                <div class="col-sm-2 pl-4 pt-0 pr-0" id="supporter-sidebar">
+                    <aside class="position-fixed text-uppercase text-center ">
                         <h2 class="h6 font-weight-bold">Supporters</h2>
                         <p>Wayne Wallace</p>
-                        <p>Tyler Benton </p>
+                        <p>Tyler Benton</p>
                         <p>Gregory Power</p>
                         <p>Trey jackson</p>
-
-                    </div>
                 </div>
-
                 <!-- //ANCHOR MAIN CONTENT CONTAINER -->
-                <div class="col-sm-10">
-                    <section class="mb-5">
-                        <h1>The worlds first crowd funded, open sourced, media business.</h1>
-                        <h2>Everything shared so you can follow along.</h2>
-                        <!-- //TODO put tracker on this link -->
-                        <button class="btn btn-primary">learn more</button>
+                <div class="col-sm-10 px-0">
+                    <header class="row mb-5 px-0" id="hero-text">
+                        <div class="row">
+                            <h1>The worlds first crowd funded, open sourced, company.</h1>
+                            <h2>Everything shared so you can follow along.</h2>
+                        </div>
+                        <div class="row">
+                            <button class="btn btn-primary">learn more</bottu>
+                        </div>
+                    </header>
+                    <section class="row mb-5">
+                        <h2>So others can learn and gain confidence</h2>
+                        <p>
+                            I am sharing my experiences as a Soldier, Development Operations Enginner at
+                            Microsoft, Self Taught Software Engineer, Husband, and father.
+                        </p>
+                        <p>
+                            I am also using this knowledge and experience to build a series of internet
+                            businessess for coders, creators, artists, and entreprenuers, and sharing every step
+                            of the process.
+                        </p>
                     </section>
-                    <section class="container">
-                        <section class="mb-5">
-                            <div class="row">
-                                <div class="col">
-                                    <h2>So others can learn and gain confidence</h2>
-                                    <p>
-                                        I am sharing my experiences as a Soldier, Development Operations Enginner at
-                                        Microsoft,
-                                        Self
-                                        Taught
-                                        Software Engineer, Husband, and father.
-                                    </p>
-                                    <p>
-                                        I am also using this knowledge and experience to build a series of internet
-                                        businessess
-                                        for
-                                        coders,
-                                        creators, artists, and entreprenuers, and sharing every step of the process.
-                                    </p>
-                                </div>
-                            </div>
-                        </section>
-                        <!-- // TODO add learn more links and info -->
-                        <!-- //ANCHOR PROJECTS SECTIONS -->
-                        <section class="container mb-5">
-                            <h2>Current and Future Projects</h2>
-                            <div class="row">
-                                <div class="col-sm">
-                                    <h2 class="h4">Major Projects</h2>
-                                    <h3 class="h6">Live Morning Show</h3>
-                                    <h3 class="h6">TheRealCasadaro YouTube Channel</h3>
-                                    <h3 class="h6">PodCast</h3>
-                                    <h3 class="h6">Podcast Website & Landing Page</h3>
-                                    <h3 class="h6">Music Artist Website & Landing Page</h3h5 <h3 class="h5">Memebership
-                                        Website
-                                        &
-                                        Landing Page</h3>
-                                    <h3 class="h6">Ecommerce Website and Landing Page</h3>
-                                </div>
-                                <div class="col-sm">
-                                    <h2 class="h4">Minor Projects</h2>
-                                    <h3 class="h6">Accounting Website</h3>
-                                    <h3 class="h6">Real Estate Website</h3>
-                                    <h3 class="h6">Legal Website</h3>
-                                </div>
-                                <div class="row mt-3 mb-5">
-                                    <p>
-                                        The Code for these and other projects can be found on <a
-                                            href="https://www.github.com/TheRealCasasdar">GitHub</a>. As of 03 December
-                                        2019 I will
-                                        be
-                                        orgazing
-                                        my
-                                        git hub page and deleting allot of repos. If a project is not there it will be
-                                        there in the
-                                        near
-                                        future.
-                                    </p>
-                                </div>
-                                <div class="mb-5">
-                                    <h2>Open-Sourced</h2>
-                                    <p>
-                                        Come behind the scenes while I build a brand, a business, and a community as
-                                        Coder,
-                                        Creator,
-                                        Artist,
-                                        and
-                                        EntrepreneurEntrepreneur.
-                                    </p>
-                                    <p>See everything I am doing and why I am doing it.</p>
-                                    <p>Learn from my failures and successes</p>
-                                    <p><a href="projects">Click here to see what I am working on</a></p>
-                                </div>
-                                <!-- //ANCHOR CONTRIBUTION SECTION -->
-                                <section id="contributions" class="container">
-                                    <div class="row">
-                                        <div class="col-sm-4">
-                                            <div class="card" style="width: 18rem;">
-                                                <div class="card-body">
-                                                    <h5 class="card-title">Card title</h5>
-                                                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                                    <p class="card-text">Some quick example text to build on the card
-                                                        title and
-                                                        make
-                                                        up
-                                                        the
-                                                        bulk of the card's content.</p>
-                                                    <a href="#" class="card-link">Card link</a>
-                                                    <a href="#" class="card-link">Another link</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="card" style="width: 18rem;">
-                                                <div class="card-body">
-                                                    <h5 class="card-title">Card title</h5>
-                                                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                                    <p class="card-text">Some quick example text to build on the card
-                                                        title and
-                                                        make
-                                                        up
-                                                        the
-                                                        bulk of the card's content.</p>
-                                                    <a href="#" class="card-link">Card link</a>
-                                                    <a href="#" class="card-link">Another link</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="card" style="width: 18rem;">
-                                                <div class="card-body">
-                                                    <h5 class="card-title">Card title</h5>
-                                                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                                    <p class="card-text">Some quick example text to build on the card
-                                                        title and
-                                                        make
-                                                        up
-                                                        the
-                                                        bulk of the card's content.</p>
-                                                    <a href="#" class="card-link">Card link</a>
-                                                    <a href="#" class="card-link">Another link</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                            </div>
-                        </section>
-                    </section>
-                    <!-- //ANCHOR 🧭 SOCIAL MEDIA NAVIGATION -->
-                    <nav class="text-center">
-                        <h2>Follow Me</h2>
-                        <ul class="nav flex-column">
-                            <li class="nav-link">
-                                <a href="https://www.facebook.com/therealcasadaro">
-                                    Facebook
-                                </a>
-                            </li>
-                            <li class="nav-link">
-                                <a href="https://www.instagram.com/therealcasadaro">
-                                    Instagram
-                                </a>
-                            </li>
-                            <li class="nav-link mb-5">
-                                <form>
-                                    <button class="btn btn-sm btn-primary">subscribe</button>
-                                    <input type="email" placeholder="enter your best email address"
-                                        style="width: 350px;">
-                                </form>
-                            </li>
-                        </ul>
-                    </nav>
+                    <!-- // TODO add learn more links and info -->
+                    <!-- //ANCHOR PROJECTS SECTIONS -->
+                    <h2>Current and Future Projects</h2>
 
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h2 class="h4">Major Projects</h2>
+                            <h3 class="h6">Online Membership Site & Community </h3>
+                            <h3 class="h6">Live Morning Show</h3>
+                            <h3 class="h6">TheRealCasadaro YouTube Channel</h3>
+                            <h3 class="h6">PodCast</h3>
+                            <h3 class="h6">Podcast Website & Landing Page</h3>
+                            <h3 class="h6">Music Artist Website & Landing Page</h3h5 <h3 class="h5">Memebership
+                                Website
+                                &
+                                Landing Page</h3>
+                            <h3 class="h6">Ecommerce Website and Landing Page</h3>
+                        </div>
+                        <div class="col-sm-6">
+                            <h2 class="h4">Minor Projects</h2>
+                            <h3 class="h6">Accounting Website</h3>
+                            <h3 class="h6">Real Estate Website</h3>
+                            <h3 class="h6">Legal Website</h3>
+                        </div>
+                    </div>
+                    <div class="row mt-3 mb-5">
+                        <p>
+                            The Code for these and other projects can be found on <a
+                                href="https://www.github.com/TheRealCasasdaro">GitHub</a> If a project is not there
+                            it
+                            will be there in the near future.
+                        </p>
+                    </div>
+                    <div class="row mb-5">
+                        <h2>Open-Sourced</h2>
+                        <p>
+                            Come behind the scenes while I build a brand, a business, and a community as
+                            Coder,
+                            Creator,
+                            Artist,
+                            and
+                            EntrepreneurEntrepreneur.
+                        </p>
+                        <p>See everything I am doing and why I am doing it.</p>
+                        <p>Learn from my failures and successes</p>
+                        <p><a href="projects">Click here to see what I am working on</a></p>
+                    </div>
+                    <!-- //ANCHOR CONTRIBUTION SECTION -->
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="card mx-auto" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                    <p class="card-text">Some quick example text to build on the card
+                                        title and
+                                        make
+                                        up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card mx-auto" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                    <p class="card-text">Some quick example text to build on the card
+                                        title and
+                                        make
+                                        up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card mx-auto" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                    <p class="card-text">Some quick example text to build on the card
+                                        title and
+                                        make
+                                        up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- //ANCHOR 🧭 SOCIAL MEDIA NAVIGATION -->
+                    <section class="text-center mt-5 mb-5">
+                        <h2>Follow Me</h2>
+                        <a href="https://www.facebook.com/therealcasadaro">
+                            Facebook
+                        </a>
+                        <a href="https://www.instagram.com/therealcasadaro">
+                            Instagram
+                        </a>
+
+                        <form class="mt-5">
+                            <h3 class="h3">Join The Mailing List</h3>
+                            <input type="email">
+                            <button class="btn btn-sm btn-primary">subscribe</button>
+                        </form>
+                        <ul>
+
+                    </section>
                     <!-- //ANCHOR 🦶PAGE FOOTER -->
                     <!-- //TODO add stying to page footer -->
-                    <footer class="mt-5">
-                        
-                            <ul class="text-center">
-                                <p class="h5">Tools used to build this site</p>
+                        <footer class="mx-auto text-center">
+                            <ul class="px-0">
+                                <p class="h5 mt-5">Tools used to build this site</p>
                                 <li class="nav-link">
                                     <a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/">Bootstrap</a>
                                 </li>
                                 <li class="nav-link">
                                     <a href="https://code.visualstudio.com/">Visual Studio Code</a>
                                 </li>
+                                <li class="nav-link">
+                                    <a href="https://www.netlify.com/">Netlify</a>
+                                </li>
                             </ul>
-                            
-                    </footer>
-                        <section class="text-center">
-                            <a href="privacy_policy">privacy policy</a> &
-                            <a href="terms_of_service">terms of service</a>
-                        </section>
+                            <section>
+                                <a href="privacy_policy">privacy policy</a> &
+                                <a href="terms_of_service">terms of service</a>
+                            </section>
+                        </footer>
                 </div>
-
-
-
-
-                <!-- //TODO Register domain name -->
-
-
-
-
-
-
-
             </div>
+            <!-- //TODO Register domain name -->
         </div>
     </div>
     </div>
-
-
-
-
+    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -299,45 +248,5 @@
         crossorigin="anonymous"></script>
     <script src="/js/main.js"></script>
 </body>
-
-
-//TODO determin hwther or no you are going use these project links
-<!-- 
-                        <h2 style="margin-top: 25px; margin-bottom: 15px; font-size: 2rem">Projects</h2>
-                        <div>
-                                <a href="https://musing-mcnulty-7792d1.netlify.com">Search Engine Interface </a>
-                            </div>
-                            <div>
-                                <a href="https://distracted-brattain-f92e01.netlify.com">Shark Tank Calculator</a>
-                            </div>
-                            <div>
-                                <a href="https://sad-bohr-b9371e.netlify.com/">Dental Website</a>
-                            </div>
-                            <div>
-                                <a href="https://jolly-panini-692f20.netlify.com/">Full Page Image Slider</a>
-                            </div>
-                            <div>
-                                <a href="https://trusting-franklin-437012.netlify.com/">Music Player and Focus Timer</a>
-                            </div>
-                            <div>
-                                <a href="https://ecstatic-pike-43c7f2.netlify.com/">Text Messaging App</a>
-                            </div>
-                            <div>
-                                <a href="https://elated-noether-ca1253.netlify.com/">gatsby Start Blog</a> 
-                            </div> 
-            
-                            <div>
-                                <a href="https://priceless-bell-abc8c9.netlify.com/">Get The Car Fax</a> 
-                            </div>
-                            
-                            <div>
-                                <a href="https://mystifying-goodall-56065f.netlify.com/">Coffe Website</a>
-                            </div>
-                            
-                            <div>
-                                <a href="https://silly-tereshkova-3d7607.netlify.com/">Todo App</a>
-                            </div>
-            
-                        -->
 
 </html>
