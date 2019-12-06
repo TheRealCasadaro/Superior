@@ -1,8 +1,10 @@
-*{
+/* html {
+    font-size: 14px;
     padding: 0;
     margin: 0;
-}
+} */
 
+<<<<<<< HEAD
 h2{
     font-size: 10px;
     font-weight: 100;
@@ -128,3 +130,10 @@ nav ul li {
 #clock {
     font-size: 1.5rem;
 }
+=======
+#supporter-sidebar{
+    padding-top: 10px;
+    font-size: .72rem;
+    line-height: 3px;
+}
+>>>>>>> mobile-design
